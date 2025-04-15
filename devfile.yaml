@@ -2,7 +2,6 @@ schemaVersion: 2.1.0
 metadata:
   name: quarkus-quickstart
 components:
-  components:
-    - name: dev
-      container:
-        image: quay.io/devfile/universal-developer-image:latest
+  - name: dev
+    container:
+      image: quay.io/devfile/universal-developer-image:latest
