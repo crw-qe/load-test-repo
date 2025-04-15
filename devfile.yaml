@@ -1,11 +1,8 @@
-kind: DevWorkspace
-apiVersion: workspace.devfile.io/v1alpha2
+schemaVersion: 2.1.0
 metadata:
-  name: code-latest
-spec:
-  started: true
-  template:
-    components:
-      - name: dev
-        container:
-          image: quay.io/devfile/universal-developer-image:latest
+  name: quarkus-quickstart
+components:
+  components:
+    - name: dev
+      container:
+        image: quay.io/devfile/universal-developer-image:latest
